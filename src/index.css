@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#0A1929] text-white;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-[#1A2B3E]/80 backdrop-blur-md border border-[#3B82F6]/20;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-[#3B82F6] to-[#2563EB] text-white font-bold rounded-xl shadow-lg shadow-[#3B82F6]/10 hover:shadow-[#3B82F6]/40 transition-all duration-300;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 bg-[#0A1929] border border-[#3B82F6]/20 rounded-xl text-white placeholder-[#8A8C8E] focus:outline-none focus:border-[#3B82F6] transition-colors duration-200;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#3B82F6] via-[#2563EB] to-[#3B82F6];
+  }
+
+  .bg-black-gradient {
+    @apply bg-gradient-to-br from-[#0A1929] via-[#101218] to-[#1A2B3E];
+  }
+}
