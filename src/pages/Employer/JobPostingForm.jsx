@@ -133,6 +133,7 @@ const JobPostingForm = () => {
                         <input
                             type="text"
                             name="location"
+                            
                             required
                             value={formData.location}
                             onChange={handleChange}

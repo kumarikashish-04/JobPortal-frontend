@@ -1,4 +1,7 @@
-# React + Vite
+# Aspire Map
+
+Aspire Map is a comprehensive job portal platform designed to connect talent with industry-leading companies.
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
