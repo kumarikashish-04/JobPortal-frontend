@@ -127,7 +127,7 @@ const SignUp = () => {
               <Briefcase className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-bold text-white">
-              Job<span className="text-[#3B82F6]">Portal</span>
+              Aspire<span className="text-[#3B82F6]">Map</span>
             </span>
           </div>
         </motion.div>

@@ -99,7 +99,7 @@ const JobPostingForm = () => {
             </button>
             <div>
               <h1 className="text-3xl font-bold text-white">Post New Job</h1>
-              <p className="text-[#9CA3AF]">Fill in the details for your job portal listing</p>
+              <p className="text-[#9CA3AF]">Fill in the details for your Aspire Map listing</p>
             </div>
         </div>
 

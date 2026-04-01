@@ -60,7 +60,7 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: Mail, info: "support@jobportal.com", href: "mailto:support@jobportal.com" },
+    { icon: Mail, info: "support@aspiremap.com", href: "mailto:support@aspiremap.com" },
     { icon: Phone, info: "+1 (555) 123-4567", href: "tel:+15551234567" },
     { icon: MapPin, info: "San Francisco, CA 94105", href: "#" }
   ];
@@ -114,7 +114,7 @@ const Footer = () => {
                 <Briefcase className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold text-white">
-                Job<span className="text-[#3B82F6]">Portal</span>
+                Aspire<span className="text-[#3B82F6]">Map</span>
               </span>
             </div>
             
@@ -192,8 +192,8 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             {/* Copyright */}
             <p className="text-sm text-[#9CA3AF] text-center lg:text-left">
-              © {new Date().getFullYear()} JobPortal. All rights reserved. Made with{' '}
-              <Heart className="inline w-3 h-3 text-red-500 fill-red-500" /> by JobPortal Team
+              © {new Date().getFullYear()} Aspire Map. All rights reserved. Made with{' '}
+              <Heart className="inline w-3 h-3 text-red-500 fill-red-500" /> by Aspire Map Team
             </p>
 
             {/* Social Links */}

@@ -105,7 +105,7 @@ const Header = () => {
               <Briefcase className="w-5 h-5 text-white" size={18} />
             </div>
             <span className="text-white font-bold text-xl tracking-tight">
-              Job<span className="text-[#3B82F6]">Portal</span>
+              Aspire<span className="text-[#3B82F6]">Map</span>
             </span>
           </motion.div>
 
